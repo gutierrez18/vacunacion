@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilos.css" type="text/css" rel="stylesheet">
+    <title>Covid</title>
+</head>
+<body>
+    <div><h1>Registro</h1></div>
+    <div id="root"></div>
+    <ul>
+        <li><a href="index.html">  REGISTRO  </a></li>
+        <li><a href="vacunados.html">  CONSULTA  </a></li>
+    </ul>
+    <div>
+    <form>
+        <label for="identificacion">Identificacion:</label><br>
+        <input type="text" id="identificacion" name="identificacion" placeholder="Registra tu identificacion"><br><br>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="registra tu nombre"><br>
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido" placeholder="registra tu apellido"><br><br>
+        <label for="telefono">Telefono:</label><br>
+        <input type="text" id="telefono" name="telefono" placeholder="registra tu telefono"><br><br>
+        <input type="radio" id="dosis1" name="dosis" value="Primera Dosis">
+        <label for="dosis1"> Primera Dosis</label><br>
+        <input type="radio" id="dosis2" name="dosis" value="Segunda Dosis">
+        <label for="dosis2"> Segunda Dosis</label><br>
+
+        <button type="button" id="boton-registro">
+            Registrar
+        </button>
+    </form>
+    </div>
+
+    <script src="js/registro.js"></script>
+</body>
+</html>
